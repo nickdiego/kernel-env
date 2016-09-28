@@ -1,0 +1,6 @@
+[submodule "src/linux"]
+  path = src/linux
+  url = git@github.com:nickdiego/linux.git
+  ignore = dirty
+  branch = master
+
