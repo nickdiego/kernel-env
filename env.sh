@@ -2,7 +2,7 @@
 
 basedir=$(readlink -f `dirname ${BASH_SOURCE}`)
 version='4.7.5-1-ARCH' #`uname -r`
-builddir=${basedir}/build-modules
+builddir=${basedir}/build
 bkpdir=${basedir}/bkp
 
 install() {
