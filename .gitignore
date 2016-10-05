@@ -107,3 +107,4 @@ all.config
 
 # Custom
 build*
+patches/patch*.patch
