@@ -2,5 +2,5 @@
   path = src/linux
   url = git@github.com:nickdiego/linux.git
   ignore = dirty
-  branch = custom-4.7.6-i915-multihead
+  branch = testing
 
