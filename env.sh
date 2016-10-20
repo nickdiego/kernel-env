@@ -34,6 +34,11 @@ sync-version() {
   echo "Committing locally the changes..."
   git commit -am "Apply ${version} patch"
   check || return 1
+
+  local i915_patchfile="${patchdir}/0001-drm-i915-Allow-PCH-DPLL-sharing-regardless-of-DPLL_S.patch"
+  echo "Applying patch at ${i915_patchfile}..."
+  git am $i915_patchfile
+  check || return 1
   popdir
 }
 
